@@ -9,6 +9,11 @@
 
 - Ficar atendo a seleção das zona de disponibilidade quando estiver criando as subnets publicas e privadas. Por padrão a AWS adiciona todas na mesma zona.
 
+![VPC](https://github.com/peterson771/AWS/blob/main/03%20-%20VPC/VPC.png)
+
+![Create VPC](https://github.com/peterson771/AWS/blob/main/03%20-%20VPC/create_vpc.png)
+  
+
 # Internet Gateway
 
 - É um recurso da VPC horizontalmente dimensionado, redundante e altamente disponível que permite a comunicação entre a VPC e internet
@@ -21,12 +26,13 @@
 
 - Temos dois padrões publico e privados. Proporciona acesso somente de dentro para fora, não conseguimos acessar o que está dentro da rede
 
-
 # Diferença entre Nat Gateway e Internet Gateway
 
 - As subnets configuradas no Internet Gateway tem acesso a internet e podem ser acessadas de fora da VPC da AWS.
 
 - As subnets criadas no Nat Gateway podem consumir recursos na internet mais não podem ser acessadas fora da VPC da AWS.
+
+![Funcionamento](https://github.com/peterson771/AWS/blob/main/03%20-%20VPC/funcionamento.png)
 
 # VPC Peering
 
@@ -40,6 +46,7 @@
 
 - Utiliza um NLB para conectar diferentes ENI (Elastic Network Interface)
 
+![VPC Peering](https://github.com/peterson771/AWS/blob/main/03%20-%20VPC/vpc_peering.png)
 
 # VPC Endpoints
 
